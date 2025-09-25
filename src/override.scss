@@ -42,12 +42,16 @@
         border-color: green;
     }
 
-    .datePickerCell .ant-picker-content {
-  color: red; // hücre yazısı
-  background-color: #f0f0f0; // arka plan override örneği
-}
+   
 
 
 
     
+}
+
+ .datePickerCell {
+        .ant-picker-cell{
+            color: red;
+  background-color: #f0f0f0;
+        }
 }

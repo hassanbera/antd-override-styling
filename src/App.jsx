@@ -37,7 +37,7 @@ const App = () => {
         <CustomInput1/>
         <CustomInput2/>
         <Button>Button</Button>
-    <DatePicker style ={{width: "100%"}}   open={true} className="datePicker" classNames={{
+    <DatePicker style ={{width: "100%"}} open= {true}  classNames={{
     popup: {
       root: "datePickerCell"
     }
