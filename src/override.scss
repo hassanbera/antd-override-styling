@@ -1,19 +1,53 @@
+.App {
+    .ant-typography {
+        color: red;
+        font-size: 20px;
+        font-weight: bold;
+    }
 
+    .welcomeMessage{
+        .ant-typography{
+            color:green;
+            font-size: 30px;
+        }
+    }
 
-.welcomeMessage {
-  color:rgb(29, 226, 193);
-  .ant-typography{
-  color:rgb(63, 22, 241);
-  display: block;
-  font-size: 50px;
-  font-weight: bold;
+    .ant-input{
+        border-color: green;
+    }
+    .ant-input::placeholder {
+        color: blue;
+    }
+
+    .customInput1{
+        .ant-input{
+            color: green;
+        }
+    }
+
+    .customInput2{
+        .ant-input{
+            color: red;
+        }
+    }
+
+    .ant-btn {
+        background-color: aquamarine;
+        border-radius: 8px;
+        color: azure;
+        font-weight: bold;
+    }
+
+    .datePicker {
+        border-color: green;
+    }
+
+    .datePickerCell .ant-picker-content {
+  color: red; // hücre yazısı
+  background-color: #f0f0f0; // arka plan override örneği
 }
 
-}
 
-.ant-input{
-    border-color:aquamarine
-}
-.ant-input :hover {
-    border-color: bisque;
+
+    
 }
